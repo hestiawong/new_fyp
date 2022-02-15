@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="30dp"
-    tools:context=".ui.dashboard.DashboardFragment">
+    tools:context=".openfoodfact">
 
     <TextView
         android:id="@+id/header1"
@@ -248,6 +248,7 @@
 
     <Button
         android:id="@+id/btn_login"
+        android:onClick="ScanButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
